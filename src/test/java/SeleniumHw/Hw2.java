@@ -13,7 +13,7 @@ get the title of the webPage and confirm that it is  "Web Orders Login"
  */
 public class Hw2 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         WebDriver driver = new ChromeDriver(); {
       driver.get("http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx");
         driver.findElement(By.name("ctl00$MainContent$username")).sendKeys("Tester");
