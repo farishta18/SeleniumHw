@@ -50,10 +50,7 @@ public class SecondClassHw {
 
         WebElement signUp = driver.findElement(By.xpath("//button[text() = 'Sign Up']"));
         signUp.click();
-
-    //    WebElement close = driver.findElement(By.xpath("//img[@src= 'https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/zgulV2zGm8t.png']"));
         Thread.sleep(2000);
-     //   close.click();
 
         driver.quit();
 
