@@ -42,6 +42,10 @@ public class CommonMethods {
         Select select=new Select(element);
         select.selectByValue(value);
     }
+    public static void selectFromDropdown(WebElement dropDown, String visibleText) {
+        Select sel = new Select(dropDown);
+        sel.selectByVisibleText(visibleText);
+    }
 }
 
 
